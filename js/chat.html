@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./signalr/dist/browser/signalr.js"></script>
+    <script src="./helpers.js"></script>
+</head>
+<body>
+<main>
+    <div id="chatBox">
+        <div id="chatArea">
+            Nothing
+        </div>
+        <div id="typeArea">
+            <textarea id="newMessageInput"> </textarea>
+            <button id="sendButton" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <div id="joinRoomBox">
+        <span>To change room, enter room number below and press Join.</span><br/>
+        <input id="joinRoomInput" type="text"/>
+        <button id="joinRoomButton" onclick="joinRoom()">Join</button>
+    </div>
+</main>
+
+<script src="mainScript.js">
+</script>
+<script type="text/javascript">
+</script>
+</body>
+</html>

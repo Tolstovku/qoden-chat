@@ -1,0 +1,30 @@
+#chatArea {
+    width: 400px;
+    height: 600px;
+    line-height: 3em;
+    overflow-y: scroll;
+    padding: 5px;
+}
+
+#newMessageInput {
+    width: 330px;
+    height: 50px;
+}
+
+main {
+    width: 900px;
+    height: 1000px
+}
+
+#chatBox{
+    float: left;
+}
+
+#sendButton {
+    width: 45px;
+    height: 60px;
+}
+
+#changeRoomBox{
+    float: right;
+}
